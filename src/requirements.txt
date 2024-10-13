@@ -1,0 +1,15 @@
+boto3 
+pypdf 
+langchain 
+sentence-transformers 
+cassandra-driver
+streamlit
+groq
+awscli
+langchain-community
+cassio
+langchain_groq
+PyPDF2
+pymongo
+scikit-learn
+https://chatgpt.com/share/6709f2d0-7880-8000-bf71-cd8cc794471e
