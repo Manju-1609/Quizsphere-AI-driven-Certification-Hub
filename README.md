@@ -1,20 +1,21 @@
 # Quizsphere-AI-driven-Certification-Hub
-A web application using Generative-AI for students and engineers who prepare for cloud certification exams.
+QuizSphere is an AI-driven web application designed to streamline preparation for cloud certifications, currently supporting AWS Cloud Practitioner and Azure Fundamentals.
 ## Objective
 The goal of QuizSphere is to streamline and enhance the preparation process for cloud certification exams by providing personalized and adaptive quizzes. Using generative AI, QuizSphere dynamically generates quiz questions tailored to the chosen certification path and specific learning topics, helping users focus on their strengths and identify weak areas. It also creates a customized study plan based on the user’s performance, ensuring efficient preparation within the available timeframe.
 ## Background
 Preparing for cloud certification exams, such as AWS Cloud Practitioner and Azure Fundamentals, often requires candidates to purchase dumps or rely on multiple resources, leading to a scattered and inefficient study process. The credibility of these resources can be questionable, and the lack of structured, customized learning paths can hinder effective preparation. QuizSphere addresses these challenges by using AI to generate questions that mimic actual exam scenarios, providing real-time feedback, and offering a study plan that evolves with user performance.
-QuizSphere is an AI-driven web application designed to streamline preparation for cloud certifications, currently supporting AWS Cloud Practitioner and Azure Fundamentals.
 
 ## Description:
 
 Users sign up, log in, and select a certification path.
 They specify topics and the number of questions to generate custom quizzes.
 Questions are generated using the Gemma2-9b-it LLM via Groq API, based on vectors stored in MongoDB, derived from PDFs on AWS S3.
+
 Performance Analysis & Study Plan:
 
 After each quiz, users receive a score breakdown, identifying weak areas and proficiency levels (Beginner, Intermediate, Advanced).
 Users can specify preparation days to receive a customized study plan that adapts based on performance, focusing on improvement areas.
+
 Data Management:
 
 Backend operations, including user data, quiz results, and study plans, are managed via CosmoCloud, with user IDs linking related data.
@@ -33,7 +34,7 @@ Study plan recommendation:
 ![image](https://github.com/user-attachments/assets/02a152ec-8dc6-4e37-a0d2-7532e6b851f4)
 
 ## References
-https://docs.cosmocloud.io/
-https://www.mongodb.com/docs/
-https://console.groq.com/docs/quickstart
-https://www.examtopics.com/
+- https://docs.cosmocloud.io/
+- https://www.mongodb.com/docs/
+- https://console.groq.com/docs/quickstart
+- https://www.examtopics.com/
