@@ -20,7 +20,8 @@ Data Management:
 
 Backend operations, including user data, quiz results, and study plans, are managed via CosmoCloud, with user IDs linking related data.
 ## Tech stack
-![image](https://github.com/user-attachments/assets/b4d9432b-6f70-42b4-8e72-6fafdc5b18d0)
+![image](https://github.com/user-attachments/assets/55a3a962-64d0-4c1f-97a7-a1ead54776e5)
+
 ## Architecture
 ![Blank diagram](https://github.com/user-attachments/assets/9cbaae2f-e84c-488d-831f-e44fb3ec8f4a)
 ## Output
